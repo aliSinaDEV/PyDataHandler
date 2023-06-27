@@ -39,7 +39,7 @@ def write_first_line_to_file(file_contents, output_filename):
 
 
 def read_even_numbered_lines(file_name):
-    """ Reads in the even numbered lines of a file
+    """ Reads in the even-numbered lines of a file
 
         1. Open and read the given file into a variable
         2. Read the file line-by-line and add the even-numbered lines to a list
@@ -78,7 +78,6 @@ def read_file_in_reverse(file_name):
     Returns:
         list: list of the lines of the file in reverse order.
     """
-    ### WRITE SOLUTION HERE
     reversed_text = []
     with open(file_name, 'r') as file_data:
         read_file_data = file_data.readlines()
